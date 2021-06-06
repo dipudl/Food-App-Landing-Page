@@ -121,8 +121,7 @@ hr {
     font-size: 2.75rem;
     line-height: 2.25rem;
     letter-spacing: 0.1px;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin: 4rem 5% 6rem;
     text-align: center;
 }
 
@@ -313,7 +312,7 @@ footer {
         padding-left: 10px;
     }
     .h2-middle {
-        font-size: 2.25rem;
+        font-size: 2.2rem;
     }
     .app-function-row img {
         width: 100%;
@@ -355,6 +354,10 @@ footer {
     }
     .h2-middle {
         margin-bottom: 3rem;
+    }
+    .hero-h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
     }
     .app-function-row {
         padding-top: 2rem;
