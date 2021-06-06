@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#nav-custom {
+    padding: 16px 90px;
+}
+
+.nav-item{
+    padding: 0 25px;
+}
+
+#nav-custom a {
+    color: #252b42;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#nav-custom a.active, #nav-custom a:hover {
+    color: #fa4a0c;
+    transition: .5s;
+}
+
+.logo {
+    width: 155px;
+    height: 77px;
+}
+
+#hero-div {
+    background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url("../images/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.hero-h3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    padding-top: 4.5rem;
+}
+
+.hero-h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 5rem;
+    padding: 1rem 3% 0;
+}
+
+.hero-h3-medium {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    padding-top: 1.75rem;
+}
+
+.hero-buttons-div {
+    padding: 2.5rem 0 9rem 0;
+}
+
+.hero-playstore-btn {
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.1px;
+    padding: 1rem 3.75rem;
+    margin: 1rem 1rem 0;
+}
+
+.hero-appstore-btn {
+    background-color: rgba(255,255,255, 0);
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: 1px solid white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.1px;
+    padding: 1rem 3.75rem;
+    margin: 1rem 1rem 0;
+}
+
+.double-phone {
+    display: block;
+    margin: -9rem auto 0;
+}
+
+hr {
+    background-color: #d9d9d9;
+    border: 3px solid #d9d9d9;
+    margin: 2.5rem 20%;
+}
+
+.h2-middle {
+    color: black;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.1px;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.app-function-row {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.app-function-row img {
+    display: block;
+    margin: 0 auto;
+}
+
+.app-function-detail {
+    margin: auto;
+}
+
+.h3-app-function-title {
+    color: #FA4A0C;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.1px;
+}
+
+.h3-app-function-content {
+    color: #252B42;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.2px;
+    margin-top: 1rem;
+}
+
+.h3-app-function-detail {
+    color: #737373;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.2px;
+    margin-top: 1.5rem;
+}
+
+.function-right-img {
+    float: right;
+}
+
+.function-left-img {
+    float: left;
+}
+
+.hero-div-bottom {
+    background: linear-gradient(0deg, rgba(37, 43, 66, 0.4), rgba(37, 43, 66, 0.4)), url("../images/hero-image-bottom.jpg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.h2-hero-bottom {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.2px;
+    padding-top: 8.5rem;
+}
+
+.h3-hero-bottom {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.2px;
+    padding-top: 1.25rem;
+}
+
+.hero-bottom-btn-div {
+    padding: 2.75rem 0 8rem;
+}
+
+.hero-bottom-playstore-btn {
+    background: #FA4A0C;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.2px;
+    padding: 1rem 2rem;
+    margin: 1rem 0.5rem 0;
+}
+
+.hero-playstore-btn:hover, .hero-bottom-playstore-btn:hover {
+    background: white;
+    color: #FA4A0C;
+}
+
+.hero-bottom-appstore-btn {
+    background-color: rgba(255,255,255, 0);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.2px;
+    padding: 1rem 2rem;
+    margin: 1rem 0.5rem 0;
+}
+
+.hero-appstore-btn:hover, .hero-bottom-appstore-btn:hover {
+    background-color: white;
+    color: #FA4A0C;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 7% 3rem;
+}
+
+.sm-logo-div {
+    margin: auto 0;
+    padding: 0.5rem 0;
+}
+
+.sm-logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 0.75rem;
+}
+
+.sm-logo:hover {
+    width: 45px;
+    height: 45px;
+    opacity: 0.9;
+}
+
+.footer-logo {
+    padding: 0 0;
+}
+
+.footer-copyright {
+    margin: auto 0;
+    padding: 0.5rem 0;
+}
+
+.footer-copyright p {
+    color: #5C5C5C;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.1px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .double-phone {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    #nav-custom {
+        padding: 12px 32px;
+        text-align: center;
+    }
+    .hero-h3 {
+        font-weight: 600;
+    }
+    .hero-h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    #hero-div {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .h2-middle {
+        font-size: 2.25rem;
+    }
+    .app-function-row img {
+        width: 100%;
+    }
+    .app-function-detail {
+        text-align: center;
+    }
+    .h3-app-function-content {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+    .h3-app-function-detail {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        letter-spacing: 0.2px;
+        margin-top: 0.5rem;
+    }
+    .function-left-img, .function-right-img {
+        float: none;
+    }
+    .hero-bottom-btn-div {
+        padding: 2rem 0 6rem;
+    }
+    .h2-hero-bottom {
+        line-height: 3rem;
+        padding-top: 6rem;
+    }
+}
