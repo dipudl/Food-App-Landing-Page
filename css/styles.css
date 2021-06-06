@@ -343,6 +343,13 @@ footer {
 }
 
 @media (max-width: 767px) {
+    #nav-custom {
+        padding: 6px 30px;
+    }
+    .logo {
+        width: 139px;
+        height: 69px;
+    }
     .hero-h3 {
         font-size: 1.25rem;
     }
