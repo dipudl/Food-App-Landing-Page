@@ -108,8 +108,8 @@
 }
 
 hr {
-    background-color: #d9d9d9;
-    border: 3px solid #d9d9d9;
+    background-color: #d3d3d3;
+    border: 3px solid #d3d3d3;
     margin: 2.5rem 20%;
 }
 
@@ -167,6 +167,10 @@ hr {
     line-height: 2.5rem;
     letter-spacing: 0.2px;
     margin-top: 1.5rem;
+}
+
+.collapsible-img-right {
+    display: none;
 }
 
 .function-right-img {
@@ -289,12 +293,6 @@ footer {
     margin: 0;
 }
 
-@media (max-width: 767px) {
-    .double-phone {
-        width: 100%;
-    }
-}
-
 @media (max-width: 991px) {
     #nav-custom {
         padding: 12px 32px;
@@ -306,6 +304,9 @@ footer {
     .hero-h1 {
         font-size: 3.5rem;
         line-height: 4rem;
+    }
+    .hero-h1-br {
+        display: none;
     }
     #hero-div {
         padding-right: 10px;
@@ -328,7 +329,7 @@ footer {
         font-size: 1.25rem;
         line-height: 2rem;
         letter-spacing: 0.2px;
-        margin-top: 0.5rem;
+        margin-top: 0.75rem;
     }
     .function-left-img, .function-right-img {
         float: none;
@@ -339,5 +340,33 @@ footer {
     .h2-hero-bottom {
         line-height: 3rem;
         padding-top: 6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-h3 {
+        font-size: 1.25rem;
+    }
+    .double-phone {
+        width: 100%;
+    }
+    hr {
+        margin: 2.5rem 15%;
+    }
+    .h2-middle {
+        margin-bottom: 3rem;
+    }
+    .app-function-row {
+        padding-top: 2rem;
+    }
+    .h3-app-function-content {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .collapsible-img-left {
+        display: none;
+    }
+    .collapsible-img-right {
+        display: inline;
     }
 }
