@@ -2,7 +2,7 @@
 
 Made using HTML, CSS & Bootstrap 5.
 
-Website Link: https://dou-d.github.io/Food-App-Landing-Page/
+Website Link: https://dipudl.github.io/Food-App-Landing-Page
 
 ## Contributing
 
